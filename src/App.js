@@ -1,13 +1,11 @@
 import React from 'react';
-import BlogPost from './components/BlogPost';
+import Home from './components/Home';
 
 function App() {
   return (
     <div>
-      <h1>My Blog</h1>
-      <BlogPost />
+      <Home />
     </div>
   );
 }
-
 export default App;
